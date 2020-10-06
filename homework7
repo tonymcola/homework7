@@ -1,0 +1,5 @@
+public class Biblebook { private String gname; private int chapNum; private String chapDescription;
+
+public Biblebook(String gname, int chapNum, String chapDescription) { this.gname = gname; this.chapNum = chapNum; this.chapDescription = chapDescription; }
+
+public void display() { System.out.println("Book Name: " + this.gname + " " + "(" + this.chapNum + ")"+ " - "this.chapDescription); } }
